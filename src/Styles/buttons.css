@@ -1,0 +1,40 @@
+
+.btn-green {
+    padding: 0.35rem 1rem;
+    cursor: pointer;
+    color: #212121;
+    background: linear-gradient(120deg, #65ca53, #62caa7);
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(#000);
+    transition: 0.2s all;
+  }
+  
+  .btn-green:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0 1rem 2rem rgba(#000);
+    }
+  
+  .btn-green:active {
+      transform: translateY(-0.2rem);
+      box-shadow: 0 1rem 2rem rgba(#000);
+      background: linear-gradient(120deg, #3b6b32, #2e5f4f);
+    }
+  
+  
+  .btn-back {
+    cursor: pointer;
+    font-size: 2rem;
+    background: linear-gradient(120deg, #65ca53, #62caa7);
+    outline:none;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: 0.2s all;
+  }
+  .btn-back :hover {
+      
+      transform: translateY(-0.3rem);
+      
+    }
+  
+  

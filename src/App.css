@@ -1,0 +1,24 @@
+
+@media (max-width: 1200px) {
+  .App{
+    font-size: 90%;
+    }
+  }
+
+@media (max-width: 900px) {
+  .App{
+    font-size: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+  .App{
+    font-size: 80%;
+    }
+}
+
+@media (min-width: 2100px) {
+  .App{
+    font-size: 140%;
+    }
+}
